@@ -4,11 +4,11 @@ Applause is a tool for performance reviews, where an administrator/manager can a
 
 ## Hosting on heroku
 
-For Administrator user UI - https://applause-team.herokuapp.com/admin
-For Employee user UI - https://applause-team.herokuapp.com
+- For Administrator user UI - https://applause-team.herokuapp.com/admin
+- For Employee user UI - https://applause-team.herokuapp.com
 
-For Employees API - https://applause-review.herokuapp.com/api/v1/employees
-For Reviews API - https://applause-review.herokuapp.com/api/v1/reviews
+- For Employees API - https://applause-review.herokuapp.com/api/v1/employees
+- For Reviews API - https://applause-review.herokuapp.com/api/v1/reviews
 
 #### For Administrator, it allows to
 
