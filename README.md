@@ -1,4 +1,4 @@
-## Applause tool, for performance reviews
+# Applause tool, for performance reviews
 
 Applause is a tool for performance reviews, where an administrator/manager can assign employees in her team to review an employee. An employee sees assigned reviews and can submit feedback.
 
@@ -9,6 +9,8 @@ Applause is a tool for performance reviews, where an administrator/manager can a
 
 - For Employees API - https://applause-review.herokuapp.com/api/v1/employees
 - For Reviews API - https://applause-review.herokuapp.com/api/v1/reviews
+
+## Features of the application
 
 #### For Administrator, it allows to
 
@@ -22,7 +24,7 @@ Applause is a tool for performance reviews, where an administrator/manager can a
 - List of performance reviews requiring feedback
 - Submit feedback
 
-### Technologies used :
+## Technologies used :
 
 Backend
 
@@ -34,7 +36,7 @@ Frontend
 - React UI library
 - Redux for state management
 
-### High Level design
+## High Level design
 
 **Client** (React-Redux) => **Rest API** (Nodejs) => **Database** (MongoDB)
 
@@ -93,7 +95,7 @@ Review Schema
 }
 ```
 
-### TODO Important Functionality
+## TODO Important Functionality
 
 - Basic authentication mechanism for API to allow exposing it only allowed clients.
 - Delete Review feature in UI
