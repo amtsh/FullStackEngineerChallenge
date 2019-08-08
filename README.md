@@ -2,6 +2,14 @@
 
 Applause is a tool for performance reviews, where an administrator/manager can assign employees in her team to review an employee. An employee sees assigned reviews and can submit feedback.
 
+## Hosting on heroku
+
+For Administrator user UI - https://applause-team.herokuapp.com/admin
+For Employee user UI - https://applause-team.herokuapp.com
+
+For Employees API - https://applause-review.herokuapp.com/api/v1/employees
+For Reviews API - https://applause-review.herokuapp.com/api/v1/reviews
+
 #### For Administrator, it allows to
 
 - Add/remove/view employees
@@ -84,3 +92,8 @@ Review Schema
   reviewer: Reference to Employee
 }
 ```
+
+### TODO Important Functionality
+
+- Basic authentication mechanism for API to allow exposing it only allowed clients.
+- Delete Review feature in UI
